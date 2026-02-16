@@ -28,6 +28,9 @@ This repository contains Terraform modules and root configuration to provision a
 - NAT Gateway in public subnet used by private instances for outbound internet access.
 - S3 used for object storage; the module contains a public-access block to enforce private buckets by default.
 
+  <img width="661" height="481" alt="Terraform Architecture Diagram" src="https://github.com/user-attachments/assets/976745ce-9fa4-4293-a43e-abefa8e33e36" />
+
+
 **Cost Estimate (High-level)**
 - ALB: hourly + LCU charges (depends on traffic pattern)
 - NAT Gateway: per hour + data processed (can be significant for heavy egress)
