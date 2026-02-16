@@ -12,7 +12,8 @@ variable "sg_alb" {
   description = "Security group ID for ALB"
   type        = string
 }
+
 variable "certificate_arn" {
-  description = "ARN of the SSL certificate for HTTPS listener"
+  description = "ARN of the SSL certificate for HTTPS"
   type        = string
 }
