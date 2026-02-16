@@ -13,11 +13,9 @@ This repository contains Terraform modules and root configuration to provision a
    - `terraform init`
 3. Validate configuration (optional):
    - `terraform validate`
-4. Generate an execution plan:
-   - `terraform plan -out plan.tfplan`
-5. Apply the plan:
+4. Apply the plan:
    - `terraform apply "plan.tfplan"`
-6. When finished, destroy resources to avoid charges:
+5. When finished, destroy resources to avoid charges:
    - `terraform destroy`
 
 **Architecture Decisions**
