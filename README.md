@@ -1,4 +1,4 @@
-**Terraform Project**
+# Terraform Project
 
 This repository contains Terraform modules and root configuration to provision a simple web application infrastructure on AWS (VPC, public/private subnets, ALB, Auto Scaling Group, S3, Security Groups, etc.).
 
