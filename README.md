@@ -6,7 +6,7 @@ This repository contains Terraform modules and root configuration to provision a
 - Terraform 1.0+ installed
 - AWS CLI configured with appropriate credentials (or use environment variables)
 - An ACM certificate ARN for HTTPS (if using HTTPS listener)
-- Use .tfvars file to variable values
+- Use .tfvars file to pass values in variables
 - create s3 bucket for remote backend and put it's name and key in backend.tf file
 
 **How to Use / Deployment Steps**
