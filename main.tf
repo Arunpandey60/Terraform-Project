@@ -26,8 +26,4 @@ module "asg" {
   instance_type    = var.instance_type
 }
 
-module "s3" {
-  source = "./modules/s3"
-}
-
 
