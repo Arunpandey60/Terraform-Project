@@ -38,6 +38,10 @@ This repository contains Terraform modules and root configuration to provision a
 - EBS volumes: per GB-month
 - S3: storage + requests + data transfer
 
+- Find the AWS Pricing Calculator Link below for Terraform Project.
+
+https://calculator.aws/#/estimate?id=5e5532c7844284c6f0bc9d42f3923f82f642b85c
+
 To reduce cost:
 - Use smaller instance types or spot instances for non-critical workloads
 - Minimize NAT Gateway egress by using S3 VPC endpoints where appropriate
