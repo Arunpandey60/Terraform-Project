@@ -8,12 +8,12 @@ resource "aws_lb" "alb" {
 
 resource "aws_lb_target_group" "tg" {
   name     = "app-tg"
-  port     = 80
-  protocol = "HTTP"
+  port     = 443
+  protocol = "HTTPS"
   vpc_id   = var.vpc_id
   health_check {
     path = "/"
-    port = "80"
+    port = "443"
   }
 }
 
